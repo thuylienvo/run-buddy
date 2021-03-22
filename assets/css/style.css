@@ -49,21 +49,23 @@
     font-size: 1.55vw;
   }
   
+  /* FOOTER STYLING */
   footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   
   footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
   }
   
   footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
   }
@@ -280,7 +282,7 @@
   background-color: black;
   color: red;
 
-/* homepage hero */
+/* HOMEPAGE HERO */
 .hero {
   margin: 20px;
   background-color: white;
@@ -288,7 +290,7 @@
   color: blue;
 }
 
-/* secondary page hero */
+/* SECONDARY PAGE HERO */
 .hero-secondary {
   margin: 20px;
   background-color: black;
